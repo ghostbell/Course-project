@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(../fonts/Inter-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(../fonts/Inter-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Righteous-Regular";
+    src: url(../fonts/Righteous-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Urbanist-Medium";
+    src: url(../fonts/Urbanist-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Urbanist-SemiBold";
+    src: url(../fonts/Urbanist-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}

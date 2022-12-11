@@ -1,0 +1,1152 @@
+@media screen and (max-width: 1300px) {
+    .footer__navigation a {
+        font-size: 16px;
+    }
+
+    .header__second-list a {
+        font-size: 16px;
+    }
+
+    .header__first-list a {
+        font-size: 16px;
+    }
+
+    .slider__numberpeople p {
+        font-size: 18px;
+    }
+
+    .header__second-list li {
+        height: 22px;
+    }
+
+    .dropdown {
+        padding-bottom: 6px;
+    }
+
+    img[src*=search], img[src*=shopping] {
+        width: 75%;
+    }
+
+    .section-product__cards img[src*=shopping] {
+        width: 17%;
+    }
+
+    .section-product__cards .cards__card:nth-child(2) {
+        display: none;
+    }
+
+    .second-testimonial__cards .cards__card a {
+        padding-right: 154px;
+    }
+
+    .second-testimonial__cards img[alt=arrow-right] {
+        width: 22px;
+    }
+
+    .card__row {
+        width: 258px;
+    }
+
+    .second-testimonial__cards .cards__card p.name {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    img[src*=testimonial] {
+        width: 300px;
+    }
+
+    .pictures__first-picture, .pictures__second-picture {
+        display: none;
+    }
+
+    .booking {
+        padding: 48px;
+    }
+
+    .pictures__third-picture {
+        display: block;
+        width: 200px;
+    }
+
+    .section-our-history__history {
+        padding-top: 35px;
+    }
+
+    .benefits__benefit img {
+        width: 260px;
+    }
+
+    .benefits__paragraph {
+        font-size: 20px;
+    }
+
+    .pictures img {
+        height: 478px;
+        width: 220px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropbtn:hover {
+        border: 0;
+    }
+    
+    .show {display:block;}
+
+    .dropbtn {
+        padding: 10px;
+        background-color: #1C1814;
+        border: 0;
+        display: inline;
+        /* width: 224px; */
+    }
+    
+    .section-about-benefits {
+        flex-wrap: wrap;
+        width: 768px;
+    }
+
+    .benefits__benefit:nth-of-type(2) {
+        margin-right: 0;
+    }
+
+    .section-our-history__pictures {
+        margin-right: 0;
+        width: 252px;
+        height: 478px;
+    }
+
+    .slider__wrapper {
+        width: 565px;
+    }
+
+    .slider__items {
+        flex-direction: column;
+    }
+
+    .slider__item {
+        width: 485px;
+        margin-bottom: 30px;
+    }
+
+    .slider__testimonial {
+        margin-right: 0;
+    }
+
+    /* .cards__card:nth-of-type(2n) {
+        display: none;
+    } */
+
+    .card__name {
+        font-size: 18px;
+    }
+
+    .section-product__button {
+        margin: 22px auto;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .coffee-machine__body img {
+        display: none;
+    }
+
+    .coffee-machine__text-block {
+        margin: 0 80px;
+        text-align: center;
+    }
+
+    .coffee-machine__button {
+        margin-bottom: 72px;
+    }
+
+    .second-testimonial__cards .cards__card:nth-child(2) {
+        display: none;
+    }
+
+    .header__second-list {
+        margin-left: 0;
+    }   
+    
+    .header__first-list li{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5px;
+    }    
+
+    a.header__logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__first-list li:last-child {
+        margin-right: 0;
+    }
+
+    .section-menu__cards {
+        width: 50%;
+        margin: 0 auto;
+        height: 544px;
+        overflow: scroll;
+        /*без margin не становится по центру*/
+    }
+
+    .cards__card {
+        margin-right: 0;
+        padding: 14px 16px;
+    }
+
+    .section-menu__cards .cards__card:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer__first-part {
+        justify-content: center;
+    }
+
+    img[src*=product-card] {
+        width: 250px;
+    }
+
+    .section-product__cards .cards__card {
+        height: 442px;
+        padding: 36px 36px;
+    }
+
+    .section-product__cards .card p {
+        margin: 22px 0;
+    }
+
+    .section-product__cards p {
+        font-size: 22px;
+    }
+
+    .card__price {
+        /* margin-left: 20%; */
+        margin-left: 50px;
+        font-size: 16px;
+    }
+
+    .cards__card p.price {
+        font-size: 16px;
+    }
+
+    .inactive-card__type-testimonial {
+        margin: 16px 0px;
+    }
+
+    .cards__card p.type {
+        font-size: 14px;
+    }
+
+    h6[class*=topic] {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+
+    h3[class*=title] {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+    img.testimonial__stars {
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 885px) {
+    .section-our-history__pictures img{
+        width: 90%;
+        margin-right: 32px;
+    }
+
+    .section-menu__cards {
+        width: 450px;
+    }
+
+    .text-block__title {
+        font-size: 54px;
+    }
+
+    .section-product__cards img[src*=shopping] {
+        width: 20%;
+    }
+
+    .second-testimonial__cards img[alt*=arrow-right]{
+        width: 20%;
+    }
+
+    .footer__navigation ul{
+        /* margin: auto 36px auto 0; */
+        /* width: 100px;
+        overflow: scroll;
+        margin-right: 10%; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 310px;
+    }
+    
+    .section-our-history__pictures {
+        height: 516px;
+        width: 30%;
+
+        align-items: center;
+    }
+
+    .section-our-history__history {
+        padding: 72px 0;
+    }
+
+    .section-about-benefits {
+        width: 45%;
+        height: 368px;
+        overflow: scroll;
+    }
+
+    .card__name {
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .card__price {
+        font-size: 16px;
+    }
+
+    .testimonial__paragraph {
+        font-size: 15px;
+    }
+
+    .testimonial__image {
+        height: 134px
+    }
+
+    .testimonial__name-job {
+        margin: 0;
+    }
+
+    .footer__navigation a {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .slider__numberpeople {
+        font-size: 18px;
+    }
+
+    img.testimonial__stars {
+        margin: 0;
+    }
+
+    .history__topic {
+        margin-top: 0;
+    }
+
+    .section-our-history__pictures {
+        display: none;
+    }
+
+    .history__paragraph {
+        margin-bottom: 0;
+        font-size: 16px;
+        /* height: 100px;
+        overflow: scroll; */
+    }
+
+    .text-block__paragraph {
+        font-size: 18px;
+    }
+
+    .benefits__benefit {
+        width: 260px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .benefits__paragraph {
+        font-size: 20px;
+    }
+
+    img[src*=product-card] {
+        width: 200px;
+    }
+
+    .section-product__cards .cards__card {
+        height: 370px;
+    }
+
+    .section-product__cards p {
+        font-size: 20px;
+    }
+
+    .cards__card p.type {
+        font-size: 14px;
+    }
+
+    .cards__card p.price {
+        font-size: 16px;
+    }
+
+    .coffee-machine__text-block p {
+        font-size: 15px;
+    }
+
+    .coffee-machine__text-block {
+        margin: 0 48px;
+    }
+
+    .coffee-machine__button {
+        margin-bottom: 54px;
+    }
+
+    .booking input {
+        width: 365px;
+        font-size: 14px;
+    }
+
+    .booking {
+        padding: 34px 48px;
+    }
+
+    .booking input:last-of-type {
+        margin-bottom: 34px;
+    }
+
+    .footer__search-form input {
+        font-size: 14px;
+    }
+
+    img[src*=menu] {
+        width: 50px;
+    }
+
+    .cards__card {
+        padding: 18px 18px;
+    }
+    
+    img[src*=testimonial] {
+        width: 270px;
+    }
+
+    .card__row {
+        width: 230px;
+    }
+
+    .card__row p {
+        font-size: 14px;
+    }
+
+    /* .second-testimonial__cards {
+        width: 270px;
+        overflow: scroll;
+    } */
+
+    /* .second-testimonial__cards .cards__card:nth-child(2) {
+        display: block;
+    } */
+
+    .second-testimonial__cards .cards__card p.name {
+        font-size: 16px;
+        padding-right: 0px;
+        width: 230px;
+    }
+
+    .second-testimonial__cards .cards__card a {
+        padding-right: 121px;
+        margin: 0;
+    }
+
+    .second-testimonial__title {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    h6[class*=topic] {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    h3[class*=title] {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+    .inactive-card__type-testimonial img {
+        height: 16px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 660px){
+    .text-block__title {
+        font-size: 42px;
+    }
+
+    .text-block__paragraph {
+        font-size: 16px;
+    }
+
+    .text-block__button {
+        font-size: 16px;
+        margin-top: 48px;
+    }
+
+    .button {
+        width: 172px;
+        height: 60px;
+        padding: 0;
+    }
+
+    .header__logo img {
+        width: 60px;
+    }
+
+    .benefits__benefit img {
+        width: 240px;
+    }
+
+    .benefits__paragraph {
+        font-size: 18px;
+    }
+
+    .section-about-benefits {
+        height: 341px;
+    }
+
+    h3[class*=title] {
+        font-size: 26px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    h6[class*=topic] {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .history__paragraph {
+        font-size: 12px;
+        width: 290px;
+    }
+
+    .section-our-history__history {
+        padding: 48px 0;
+        width: 400px;
+    }
+
+    .card__name {
+        width: 110px;
+        font-size: 14px;
+    }
+
+    .card__price {
+        font-size: 14px;
+    }
+
+    .section-menu__cards {
+        height: 362px;
+        width: 316px;
+    }
+
+    .row {
+        width: 312px;
+    }
+
+    .testimonial__paragraph {
+        font-size: 14px;
+        height: 120px;
+        overflow: scroll;
+    }
+
+    .slider__wrapper {
+        width: 392px;
+    }
+
+    .slider__item {
+        width: 312px;
+    }
+
+    .testimonial__image {
+        height: 112px;
+    }
+
+    .slider__numberpeople p {
+        font-size: 14px;
+    }
+
+    .slider-buttons__button {
+        width: 42px;
+        height: 42px;
+    }
+
+    .slider-buttons__button img {
+        width: 50%;
+    }
+
+    img.testimonial__stars {
+        width: 30%;
+    }
+
+    .testimonial__name-job {
+        font-size: 14px;
+    }
+
+    img[src*=product-card] {
+        width: 160px;
+    }
+
+    .cards__card p.type {
+        font-size: 11px;
+    }
+
+    .section-product__cards p {
+        font-size: 16px;
+        margin-bottom: 12px;
+        line-height: normal;
+    }
+
+    .cards__card p.price {
+        font-size: 13px;
+    }
+
+    .inactive-card__type-testimonial {
+        margin: 10px 0;
+    }
+
+    .card__button {
+        font-size: 14px;
+    }
+
+    .section-product__cards img[src*=shopping] {
+        width: 15%;
+    }
+
+    .section-product__cards .cards__card {
+        height: 314px;
+    }
+
+    .section-product__cards .cards__card:last-child {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-product__button {
+        font-size: 14px;
+    }
+
+    .coffee-machine__body {
+        width: 400px;
+    }
+
+    .coffee-machine__text-block p {
+        font-size: 14px;
+        width: 280px;
+    }
+
+    .coffee-machine__button {
+        font-size: 14px;
+    }
+
+    .booking input {
+        width: 210px;
+        font-size: 12px;
+    }
+
+    .booking__button {
+        font-size: 14px;
+        padding: 14px 34px;
+    }
+
+    .second-testimonial__cards img[alt*=testimonial] {
+        width: 180px;
+    }
+
+    .card__row p {
+        font-size: 12px;
+    }
+
+    .card__row {
+        width: 136px;
+    }
+
+    .second-testimonial__cards .cards__card p.name {
+        font-size: 14px;
+        width: 136px;
+    }
+
+    .second-testimonial__cards .cards__card a {
+        font-size: 14px;
+        padding-right: 36px;
+    }
+
+    .footer__first-part {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__navigation img[alt*=logo] {
+        width: 60px;
+    }
+
+    .footer__navigation ul {
+        flex-direction: column;
+        gap: 10px;
+        height: 56px;
+        align-items: flex-end;
+    }
+
+    .footer__navigation a {
+        font-size: 14px;
+    }
+
+    .footer__search-form {
+        width: 260px;
+    }
+
+    .footer__search-form input {
+        font-size: 12px;
+    }
+
+    .footer__search-form button {
+        margin-top: 0;
+        padding: 0;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__search-form button img {
+        width: 40%;
+    }
+
+    .footer__second-part p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 425px){
+    .text-block__title {
+        font-size: 26px;
+    }
+
+    .header__first-list a {
+        font-size: 12px;
+    }
+
+    .benefits__benefit img {
+        width: 170px;
+    }
+
+    a.header__logo img {
+        width: 50px;
+    }
+
+    .header__body {
+        width: 60%;
+    }
+
+    .header__second-list {
+        flex-wrap: wrap;
+        width: 70px;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .footer__navigation a {
+        font-size: 12px;
+    }
+
+    .header__second-list li {
+        margin-right: 0px;
+    }
+
+    .header__second-list li img {
+        width: 15px;
+    }
+
+    .benefits__benefit {
+        align-items: center;
+    }
+
+    .benefits__paragraph {
+        font-size: 12px;
+    }
+
+    .section-about-benefits {
+        height: 248px;
+        width: 200px;
+    }
+
+    .testimonial__name-job {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .coffee-machine__body {
+        width: 200px;
+    }
+
+    img[src*=product-card] {
+        width: 170px;
+    }
+
+    .card__row p {
+        font-size: 12px;
+    }
+
+    .card__price {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    .footer__body {
+        width: 100%;
+    }
+
+    .footer__search-form {
+        width: 180px;
+        height: 52px;
+    }
+
+    .footer__search-form img {
+        width: 15px;
+    }
+
+    .history__topic {
+        padding: 0 30px;
+    }
+
+    .footer__search-form button {
+        /* padding: auto 0; */
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer__search-form input {
+        font-size: 11px;
+        width: 80px;
+    }
+
+    .footer__search-form input::placeholder {
+        height: 20px;
+    }
+
+    .footer__first-part {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .testimonial__paragraph {
+        margin-bottom: 25px;
+        font-size: 12px;
+    }
+
+    .coffee-machine__button {
+        font-size: 10px;
+        padding: 12px 16px;
+        margin-bottom: 0;
+    }
+
+    .second-testimonial__cards .cards__card a {
+        padding-right: 58px;
+        font-size: 12px;
+    }
+
+    .slider__numberpeople p {
+        font-size: 14px;
+    }
+
+    .section-product__button {
+        margin: 6px auto;
+        font-size: 12px;
+        padding: 12px 12px;
+        width: 170px;
+    }
+
+    h3[class*=title] {
+        font-size: 18px;
+        margin-bottom: 14px;
+        line-height: normal;
+    }
+
+    .footer__second-part {
+        width: 100%;
+    }
+
+    .footer__second-part p {
+        font-size: 10px;
+    }
+
+    h6[class*=topic] {
+        font-size: 12px;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
+
+    .section-product__cards .cards__card {
+        height: 322px;
+        padding: 26px 32px;
+        justify-content: space-around;
+    }
+
+    .section-product__cards {
+        width: 234px;
+        overflow: scroll;
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
+
+    .header__second-list a {
+        font-size: 12px;
+    }
+
+    .text-block__paragraph {
+        font-size: 12px;
+        width: 200px;
+    }
+
+    .text-block__button {
+        margin-top: 34px;
+        font-size: 12px;
+        width: 160px;
+        height: 52px;
+    }
+
+    .cards__card p.price {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .second-testimonial__cards .cards__card p.name {
+        width: 138px;
+        font-size: 13px;
+    }
+
+    .second-testimonial__cards img[alt*=arrow-right] {
+        width: 15px;
+    }
+
+    .section-product__cards p {
+        font-size: 13px;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
+
+    .card__button {
+        font-size: 14px;
+        justify-content: center;
+        padding: 8px 14px;
+    }
+
+    .slider-buttons__button {
+        width: 44px;
+        height: 44px;
+    }
+
+    .slider-buttons__button img {
+        width: 40%;
+    }
+
+    .section-product__cards .card p {
+        margin: 14px 0;
+        font-size: 13px;
+    }
+
+    .section-product__cards img[src*=shopping] {
+        width: 15%;
+    }
+
+    .home-section__text-block {
+        padding-top: 166px;
+    }
+
+    .coffee-machine__text-block p {
+        width: 114px;
+        height: 100px;
+        font-size: 11px;
+        overflow: scroll;
+    }
+
+    .coffee-machine__text-block h3 {
+        width: 114px;
+        margin-top: 0px;
+    }
+
+    .coffee-machine__text-block {
+        margin: 30px 48px;
+    }
+
+    .history__title {
+        width: 148px;
+        margin-right: 0;
+        padding: 0 30px;
+    }
+
+    .cards__card p.type {
+        font-size: 11px;
+    }
+
+    .inactive-card__type-testimonial {
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .inactive-card__type-testimonial img {
+        height: 12px;
+    }
+
+    .history__paragraph {
+        width: 148px;
+        font-size: 12px;
+        padding: 0 30px;
+        height: 110px;
+        overflow: scroll;
+    }
+
+    .section-our-history__history {
+        width: 208px;
+    }
+
+    .section-menu__cards {
+        width: 270px;
+        height: 352px;
+    }
+
+    .section-menu__cards .cards__card {
+        padding: 10px 10px;
+        height: 120px;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .section-menu__cards .cards__card:nth-child(2n + 1) {
+        margin-right: 15px;
+    }
+
+    .card__name {
+        width: 82px;
+        margin-left: 0;
+        line-height: normal;
+        font-size: 13px;
+    }
+
+    .section-testimonial img[src*=testimonial] {
+        display: none;
+    }
+
+    img[src*=testimonial] {
+        width: 170px;
+    }
+
+    .card__row {
+        width: 140px;
+    }
+
+    .row {
+        width: 192px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    img.testimonial__stars {
+        width: 30%;
+        margin-top: 5px;
+    }
+
+    .slider__items {
+        width: 260px;
+    }
+
+    .slider__item {
+        width: 190px;
+        padding: 22px 35px;
+    }
+
+    .slider__wrapper {
+        width: 260px;
+    }
+
+    .second-testimonial__cards {
+        width: 170px;
+        overflow: scroll;
+        margin: 0 auto;
+    }
+
+    .footer__navigation {
+        width: 100%;
+    }
+
+    .footer__navigation li {
+        margin: 0;
+    }
+
+    .footer__navigation img {
+        width: 50px;
+    }
+
+    .footer__navigation ul {
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 70px;
+        gap: 20px;
+        width: 100%;
+        align-items: normal;
+    }
+
+    .slider__indicators {
+        width: 50%;
+    }
+
+    .indicator {
+        width: 40%;
+    }
+
+    .booking {
+        padding: 34px;
+    }
+
+    .booking input {
+        width: 128px;
+        height: 26px;
+        font-size: 11px;
+        padding: 5px 15px;
+    }
+
+    .booking__button {
+        font-size: 12px;
+        width: auto;
+        padding: 12px 22px;
+    }
+}
