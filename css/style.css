@@ -15,6 +15,54 @@ button:hover {
     transition: .3s;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    margin-right: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #C99E71;
+    transition: 0.2s;
+}
+
+a.active {
+    color: #C99E71;
+}
+
+.button {
+    width: 202px;
+    height: 70px;
+    background: #C99E71;
+    color: #FFFFFF;
+
+    font-family: 'Inter-Bold';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-transform: uppercase;
+
+    /*для размера кнопки и располажения текста как в макете*/
+    padding-top: 4px;
+    border: 2px solid #C99E71; 
+}
+
+.button:hover {
+    background: #000000;
+}
+
 /* HEADER */
 
 .header {
@@ -47,32 +95,6 @@ button:hover {
     border: 0;
     display: none;
     background-image: url(../pictures/burger-menu.png);
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-li {
-    margin-right: 48px;
-}
-
-a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-a:hover {
-    color: #C99E71;
-    transition: 0.2s;
-}
-
-a.active {
-    color: #C99E71;
 }
 
 .header__first-list {
@@ -135,28 +157,6 @@ a.active {
 
     margin-top: 32px;
     margin-bottom: 0;
-}
-
-.button {
-    width: 202px;
-    height: 70px;
-    background: #C99E71;
-    color: #FFFFFF;
-
-    font-family: 'Inter-Bold';
-    font-style: normal;
-    font-size: 18px;
-    line-height: 22px;
-
-    text-transform: uppercase;
-
-    /*для размера кнопки и располажения текста как в макете*/
-    padding-top: 4px;
-    border: 2px solid #C99E71; 
-}
-
-.button:hover {
-    background: #000000;
 }
 
 .text-block__button {
@@ -354,15 +354,12 @@ a.active {
 .section-testimonial {
     display: flex;
     justify-content: center;
-    
-    /* margin-left: 20px; */
 }
 
 .section-testimonial__body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 
     margin-top: 110px;
 }
@@ -545,7 +542,7 @@ a.active {
     margin-top: 17px;
 }
 
-.testimonial__name-job span { /*Для нужного отступа разделить строки в разные теги или можно оставить с таким отступом?*/
+.testimonial__name-job span {
     font-family: 'Urbanist-Medium';
     font-size: 14px;
     line-height: 180%;
@@ -720,8 +717,6 @@ p.price {
     width: 257px;
     border: 0;
 
-    /* margin-top: 22px;
-    margin-left: 475px; margin: 0 auto не работает */
     margin: 22px auto auto;
 
     text-transform: uppercase;
@@ -1048,10 +1043,6 @@ footer {
     align-items: center;
     width: 62%;
     margin: auto;
-}
-
-.inactive.card__button {
-    display: none;
 }
 
 .footer__search-form {
