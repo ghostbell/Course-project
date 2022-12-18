@@ -104,7 +104,6 @@
         background-color: #1C1814;
         border: 0;
         display: inline;
-        /* width: 224px; */
     }
     
     .section-about-benefits {
@@ -138,10 +137,6 @@
     .slider__testimonial {
         margin-right: 0;
     }
-
-    /* .cards__card:nth-of-type(2n) {
-        display: none;
-    } */
 
     .card__name {
         font-size: 18px;
@@ -196,7 +191,6 @@
         margin: 0 auto;
         height: 544px;
         overflow: scroll;
-        /*без margin не становится по центру*/
     }
 
     .cards__card {
@@ -230,7 +224,6 @@
     }
 
     .card__price {
-        /* margin-left: 20%; */
         margin-left: 50px;
         font-size: 16px;
     }
@@ -289,10 +282,6 @@
     }
 
     .footer__navigation ul{
-        /* margin: auto 36px auto 0; */
-        /* width: 100px;
-        overflow: scroll;
-        margin-right: 10%; */
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
@@ -364,8 +353,6 @@
     .history__paragraph {
         margin-bottom: 0;
         font-size: 16px;
-        /* height: 100px;
-        overflow: scroll; */
     }
 
     .text-block__paragraph {
@@ -452,15 +439,6 @@
     .card__row p {
         font-size: 14px;
     }
-
-    /* .second-testimonial__cards {
-        width: 270px;
-        overflow: scroll;
-    } */
-
-    /* .second-testimonial__cards .cards__card:nth-child(2) {
-        display: block;
-    } */
 
     .second-testimonial__cards .cards__card p.name {
         font-size: 16px;
@@ -848,7 +826,6 @@
     }
 
     .footer__search-form button {
-        /* padding: auto 0; */
         width: 30px;
         height: 30px;
     }
